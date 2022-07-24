@@ -23,18 +23,19 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent">
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:fontFamily="@font/roboto_bold"
+                android:text="@string/name_title_main_toolbar"
                 android:textColor="@color/white"
                 android:textSize="24sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                android:text="@string/name_title_main_toolbar"
                 tools:text="Name Movie" />
         </androidx.appcompat.widget.Toolbar>
 
@@ -44,9 +45,10 @@
         android:id="@+id/filmsRecyclerView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:paddingHorizontal="5dp"
+        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
         app:layout_constraintTop_toBottomOf="@+id/mainAppBarLayout"
-        android:paddingHorizontal="20dp"
-        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:spanCount="3"
         tools:listitem="@layout/films_list_item" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

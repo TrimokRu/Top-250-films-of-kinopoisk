@@ -7,4 +7,11 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="background_color">#173463</color>
+    <color name="background_movie_color">#0D1E3A</color>
+    <color name="movie_details_color">#4E5E78</color>
+    <color name="rating_color">#D1C573</color>
+    <color name="disable_star_color">#495973</color>
+    <color name="movie_slogan_color">#7979BE</color>
+    <color name="movie_description_color">#BBBBBB</color>
 </resources>
