@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">Films</string>
     <string name="name_title_main_toolbar">TOP 250 MOVIE</string>
     <string name="genre_movie">Жанр: %s</string>
