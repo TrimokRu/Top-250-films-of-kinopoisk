@@ -1,11 +1,13 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">Films</string>
+    <string name="API_KEY" tools:ignore="TypographyDashes">331c4c37-4582-46cb-b619-6b0cc192f981</string>
+    <string name="BASE_URL">https://kinopoiskapiunofficial.tech/</string>
     <string name="name_title_main_toolbar">TOP 250 MOVIE</string>
     <string name="genre_movie">Жанр: %s</string>
     <string name="release_year_movie">Год производства: %s</string>
     <string name="country_movie">Страна: %s</string>
     <string name="age_movie">Возраст: %s</string>
     <string name="rating_kinopoisk_movie">Кинопоиск: %s</string>
-    <string name="rating_imdb_movie">IMDB: %s</string>
+    <string name="length_movie">Продолжительность фильма: %s минут</string>
     <string name="description_movie">Описание</string>
 </resources>

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/background_color"
-    tools:context=".details_activity.DetailsActivity">
+    tools:context=".presentation.details_activity.DetailsActivity">
 
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/appBarLayout"
@@ -24,6 +24,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent">
             <TextView
+                android:id="@+id/titleToolbar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -56,6 +57,7 @@
                 app:cardElevation="12dp"
                 android:layout_height="wrap_content">
                 <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/movieImageView"
                     android:layout_width="wrap_content"
                     android:layout_height="300dp"
                     android:adjustViewBounds="true"
@@ -143,10 +145,10 @@
                         android:textAlignment="center"/>
                     <TextView
                         android:padding="@dimen/details_info_padding"
-                        android:id="@+id/movieRatingImdb"
+                        android:id="@+id/movieLength"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        tools:text="@string/rating_imdb_movie"
+                        tools:text="@string/length_movie"
                         android:textColor="@color/movie_details_color"
                         android:fontFamily="@font/roboto_regular"
                         android:textSize="14sp"
